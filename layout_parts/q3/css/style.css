@@ -6,19 +6,16 @@
   table-layout: fixed;
 }
 
-.column {
+.tb .tb-head > tr > th {
   background-color: #2244aa;
   color: #fff;
   border: 1px solid #dedede;
-}
-
-.column_text {
   font-size: 18px;
   line-height: 26px;
   padding: 10px;
 }
 
-.data {
+.tb .tb-body > tr > td {
   font-size: 16px;
   line-height: 22px;
   padding: 10px;
@@ -26,18 +23,18 @@
   border: #dedede solid 1px;
 }
 
-.row:nth-child(even) .data {
+.tb .tb-body > tr:nth-child(even) >td {
   background-color: #ecf1f2;
 }
 
-.row .data:first-child {
+.tb .tb-body > tr >td:first-child {
   background-color: #2244aa;
   color: #fff;
   font-size: 18px;
   line-height: 26px;
 }
 
-.row:last-child {
+.tb .tb-body tr:last-child {
   border-top: 2px dashed #000 ;
 }
 /* 回答はここに書いてね */

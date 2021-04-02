@@ -15,22 +15,21 @@
   word-break: break-all;
 }
 
-.q2-image1-block {
+.q2-image-left {
   float: left;
   margin-right: 20px;
-  margin-bottom: 10px;
 }
 
 .photo {
   vertical-align: bottom;
 }
 
-.q2-image2-block {
+.q2-image-right {
   float: right;
   margin-left: 20px;
-  margin-bottom: 10px;
 }
 
-
+.margin-bottom {
+  margin-bottom: 10px;
 }
 /* 回答はここに書いてね */
