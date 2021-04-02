@@ -24,30 +24,31 @@
   text-align: center;
 }
 
-.box1 {
+.pink {
   width: 100px;
   background-color: #fdc8b8;
 }
 
-.box2 {
+.purple {
   background-color: #e0abd9;
 }
 
-.box3 {
+.blue {
   background-color: #b6d8ed;
   width: 100px;
 }
 
-.box4 {
+.yellow {
   background-color: #e5d32e;
 }
 
-.box5 {
+.red {
   background-color: #ec8f9a;
 }
 
-.box6 {
+.green {
   background-color: #8fdcad;
   width: 500px;
 }
+
 /* 回答はここに書いてね */

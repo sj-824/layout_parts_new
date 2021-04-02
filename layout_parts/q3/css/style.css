@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+
 .tb {
   width: 100%;
   table-layout: fixed;
@@ -23,18 +24,19 @@
   border: #dedede solid 1px;
 }
 
-.tb .tb-body > tr:nth-child(even) >td {
+.tb .tb-body > tr:nth-child(even) > td {
   background-color: #ecf1f2;
 }
 
-.tb .tb-body > tr >td:first-child {
+.tb .tb-body > tr > td:first-child {
   background-color: #2244aa;
   color: #fff;
   font-size: 18px;
   line-height: 26px;
 }
 
-.tb .tb-body tr:last-child {
+.tb .tb-body > tr:last-child {
   border-top: 2px dashed #000 ;
 }
+
 /* 回答はここに書いてね */

@@ -22,16 +22,15 @@
   height: 0;
   border: solid;
   border-width: 20px;
+  left: 30px;
 }
 
 .comment:after {
-  left: 30px;
   bottom: -38px;
   border-color: #fff transparent transparent transparent;
 }
 
 .comment:before {
-  left: 30px;
   bottom: -45px;
   border-color: #222 transparent transparent transparent;
 }

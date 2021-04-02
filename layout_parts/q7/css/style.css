@@ -58,17 +58,13 @@
 /* q7-4 */
 .q7_flex {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
+  justify-content: space-around;
 }
 
 .q7_flex_box {
   width: 225px;
   box-sizing: border-box;
-  margin-left: 50px;
-}
-
-.q7_flex_box:first-child {
-  margin: 0;
 }
 
 /* q7-5 */
