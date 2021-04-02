@@ -2,12 +2,12 @@
 
 /* 回答はここに書いてね */
 
-.tb {
+.table {
   width: 100%;
   table-layout: fixed;
 }
 
-.tb .tb-head > tr > th {
+.table > thead > tr > th {
   background-color: #2244aa;
   color: #fff;
   border: 1px solid #dedede;
@@ -16,7 +16,7 @@
   padding: 10px;
 }
 
-.tb .tb-body > tr > td {
+.table > tbody > tr > td {
   font-size: 16px;
   line-height: 22px;
   padding: 10px;
@@ -24,18 +24,18 @@
   border: #dedede solid 1px;
 }
 
-.tb .tb-body > tr:nth-child(even) > td {
+.table > tbody > tr:nth-child(even) > td {
   background-color: #ecf1f2;
 }
 
-.tb .tb-body > tr > td:first-child {
+.table > tbody > tr > td:first-child {
   background-color: #2244aa;
   color: #fff;
   font-size: 18px;
   line-height: 26px;
 }
 
-.tb .tb-body > tr:last-child {
+.table > tbody > tr:last-child {
   border-top: 2px dashed #000 ;
 }
 
