@@ -9,8 +9,11 @@
   clear: both;
 }
 
-.q7_text {
+.q7-common {
   width: 225px;
+}
+
+.q7_text {
   float: left;
   margin-left: 50px;
   font-size: 16px;
@@ -29,7 +32,6 @@
 
 .q7_table-cell {
   display: table-cell;
-  width: 225px;
   vertical-align: middle;
 }
 
@@ -44,7 +46,6 @@
 
 .q7_inline_block {
   display: inline-block;
-  width: 225px;
   box-sizing: border-box;
   vertical-align: middle;
   margin-left: 50px;
@@ -63,7 +64,6 @@
 }
 
 .q7_flex_box {
-  width: 225px;
   box-sizing: border-box;
 }
 
