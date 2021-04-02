@@ -1,5 +1,38 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.comment {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  border: 5px solid #222;
+  border-radius: 30px;
+}
 
+.q9_text {
+  font-size: 16px;
+  line-height: 16px;
+  padding: 20px;
+}
+
+.comment:before, .comment:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border: solid;
+  border-width: 20px;
+}
+
+.comment:after {
+  left: 30px;
+  bottom: -38px;
+  border-color: #fff transparent transparent transparent;
+}
+
+.comment:before {
+  left: 30px;
+  bottom: -45px;
+  border-color: #222 transparent transparent transparent;
+}
 /* 回答はここに書いてね */
