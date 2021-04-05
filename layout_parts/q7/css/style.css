@@ -27,7 +27,6 @@
 /* q7-2 */
 .q7_table {
   display: table;
-  border-collapse: separate;
 }
 
 .q7_table-cell {
